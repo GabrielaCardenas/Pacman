@@ -1,0 +1,100 @@
+body
+{
+    background-color: black;
+    margin: 0px;
+}
+.row div
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.brick
+{
+    background-color: blue;
+}
+.coin
+{
+    background: url("giphy.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cereza
+{
+    background: url("manzana.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pacman
+{
+    background: url("pacman_right.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#pacman2
+{
+    background: url("mpacman_left.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.fantasma
+{
+    background: url("ghost.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#score
+{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+#vidas
+{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+#score2
+{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#vidas2
+{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block
+}
